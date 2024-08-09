@@ -1,0 +1,367 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background-color:  #dfe6f7;
+}
+
+.title{
+  width: 110px;
+height: 40px;
+margin-top: 6px;
+margin-left: 165px;
+align-items: center;
+gap: 0px;
+opacity: 0px;
+
+}
+.line{
+  border-bottom: 1px solid rgba(236, 236, 236, 1);
+  padding-top: 10px;
+  
+
+}
+
+.navbar{
+  display: flex;
+  /* margin-bottom: 10px; */
+  margin-top: -9px;
+  padding-top: 20px;
+  background-color: #fff;
+
+}
+
+.user-image{
+  width: 32px;
+height: 32px;
+margin-top: 15px;
+margin-left: 800px;
+gap: 0px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+
+}
+
+.user-name{
+  width: 83px;
+height: 16px;
+margin-top: 23px;
+margin-left: 9px;
+gap: 0px;
+opacity: 0px;
+font-weight: 600px;
+font-size: 13px;
+line-height: 15.73px;
+
+}
+
+
+
+
+
+
+
+.last{
+  display: flex;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #fff;
+}
+
+
+.filter{
+  width: 43px;
+height: 30px;
+margin-top: 15px;
+margin-left: 165px;
+gap: 0px;
+opacity: 0px;
+font-weight: 600;
+font-size: 14px;
+line-height: 16.94px;
+border-right: 1px solid rgba(236, 236, 236, 1);
+  padding-top: 10px;
+}
+
+
+
+.type1{
+  margin-left: 20px;
+  color: #797979;
+
+  
+}
+.input1{
+  border-radius: 300px;
+  padding: 7px;
+  margin-top: 3px;
+  background-color:  #F0F1F1;
+  border: none;
+  ;
+}
+
+.type2{
+  margin-left: 25px;
+  color: #797979;
+}
+.input2{
+  border-radius: 300px;
+  padding: 7px;
+  margin-top: 3px;
+  background-color:  #F0F1F1;
+  border: none;
+}
+
+.type3{
+  margin-left: 420px;
+  color: #797979;
+}
+.input3{
+  border-radius: 300px;
+  padding: 7px;
+  margin-top: 3px;
+  background-color:  #F0F1F1;
+  border: none;
+}
+
+
+
+
+
+
+.headline {
+  width: 124px;
+height: 30px;
+/* margin-top: 90px; */
+padding-top: 20px;
+margin-bottom: 30px;
+margin-left: 168px;
+gap: 0px;
+opacity: 0px;
+font-size: 24px;
+font-weight: 600;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.post {
+  background: rgba(255, 255, 255, 1);
+  width: fit-content;
+  box-shadow: 4px 6px 13px 0px rgba(215, 215, 215, 0.25);
+  margin: 20px 0px;
+  /* margin-left: 150px; */
+  border-radius: 10px;
+  padding: 20px;
+  /* height: 40%; */
+}
+
+.post:hover{
+
+  background-color: #b5c7f0;
+  color: #fff;
+ 
+}
+
+.professor{
+  border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+.foter{
+  display: flex;
+}
+
+.post-image {
+  border-radius: 12.6px;
+}
+
+.post-title {
+  font-weight: 700;
+  size: 20px;
+  line-height: 25.2px;
+  color: rgba(43, 44, 52, 1);
+  margin: 20px 0 10px;
+}
+
+.post-footer {
+  margin-left: 10px;
+  /* display: flex; */
+
+}
+
+.foter {
+  border-top: 1px solid rgba(236, 236, 236, 1);
+  padding-top: 10px;
+}
+
+
+
+.professor {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20.16px;
+  text-align: left;
+}
+
+.post-addition-info p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.64px;
+  text-align: left;
+  color: rgba(121, 121, 121, 1);
+  margin-right: 20px;
+  display:flex;
+  gap: 5px;
+}
+
+
+.post-addition-info{
+  display: flex;
+}
+
+
+
+
+
+
+
+.postflex{
+  display: flex;
+  margin: 0px 150px;
+  gap:20px;
+}
+
+
+.postflex1{
+  display: flex;
+  margin: -10px 150px;
+  gap:20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* fotter */
+
+
+span{
+  color: red;
+}
+
+.Head{
+  display: flex;
+  justify-content:space-around;
+  margin-top: 20px ;
+  padding:20px 80px;
+  background-color: #fff;
+  width: auto;
+  border-bottom: 2px solid #E7EAF2;
+}
+
+.heading-fotter{
+  width:30%;
+  /* background-color: aqua; */
+}
+
+.style-fotter{
+  font-size: 20px;
+  font-weight: 600;
+}
+.ParaFotter{
+  padding-top: 5px;
+  color: #2B2C34;
+ 
+}
+
+.category-para{
+  font-size: 16px;
+  color:black;
+  font-weight: 600;
+}
+
+.list{
+  list-style: none;
+  padding-top: 5px;
+  color: #2B2C34;
+  
+}
+
+.get-in{
+  font-size: 16px;
+  color:black;
+  font-weight: 600;
+}
+
+.phone{
+  padding-top: 5px;
+}
+.phone,.mail{
+  color: #2B2C34;
+}
+
+.follow-us{
+  font-size: 16px;
+  color:black;
+  font-weight: 600;
+}
+
+.fa-twitter{
+  padding-top: 5px;
+  padding: 10px;
+  font-size: 25px;
+}
+.fa-instagram,.fa-linkedin{
+  padding: 10px;
+  font-size: 25px;
+}
+
+
+.linemarni{
+  display: flex;
+  
+  background-color: #fff;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.madewith{
+   margin-left: 560px;
+}
+
+.lasthead{
+      margin: 0px 130px;
+}
+
+
